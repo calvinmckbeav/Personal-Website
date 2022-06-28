@@ -1,0 +1,54 @@
+/*   id (#) > class (.) > elements  */
+
+h1 {
+    color: indianred;
+    text-align: center;
+    font-family: Georgia;
+}
+h2 {
+    color:rgb(105, 124, 233);
+    text-align: center;
+    font-family: Georgia;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+#intro {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(236, 109, 24);
+}
+
+/* temporary state of anchor texts when mouse hovers over */
+a:hover {
+    color: darkgoldenrod;
+}
+
+img[src*='US'] {
+    height: 300px;
+    width: 500px;
+}
+
+img[alt*='pitching'] {
+    height:300px;
+    width:300px;
+}
+
+img[alt*='hitting'] {
+    height: 300px;
+    width: 300px;
+}
+
+img[alt*='state'] {
+    height: 300px;
+    width: 500px;
+}
+

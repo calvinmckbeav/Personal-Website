@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I am Calvin</title>
+        <link href='style.css' rel="stylesheet">
+    </head>
+
+    <div id="survey">
+        <form action="/idkyet.html" method="POST">
+            <h2>Take My Survey</h2>
+                <h3><em>About this website</em></h3>
+                    <label for="viewing?">When are you viewing this website?</label>
+                    <input type="date" id="viewing?">
+            <br></br>
+                    <label for="quality of site?">How well do you think I made this website?</label>
+                    <br>
+                    <span>How is this even working?</span>
+                    <input type="range" id="quality of site?" min="0" max="10" step="0.5">
+                    <span>Quite Impressive</span>
+            <br></br>
+                    <label for="what's next?">What should I add or work on next for this website?</label>
+                    <input type="text" id="what's next?">
+            <br></br>
+                    <label for="favorite part?">What was your favorite part of the website?</label>
+                    <input type="text" id="favorite part?">
+            <br></br>
+                <h3><em>About my coding experience</em></h3>
+                    <label for="understand?">Do you feel you understand my experience with coding well?</label>
+                    <select id="understand?" name="understand my coding experience?">
+                      <option value="Yes">Yes, you did a good job</option>
+                      <option value="No">No, some things aren't clear</option>
+                      <option value="God no">That section was horrendously incoherent</option>
+                    </select>
+            <br></br>
+                    <label for="fav lang?">Of the languages I've learned, which is your favorite?</label>
+                    <input type="text" id="fav lang?" list="langs">
+
+                    <datalist id="langs">
+                      <option value="Python"></option>
+                      <option value="DrRacket"></option>
+                      <option value="HTML"></option>
+                      <option value="Java"></option>
+                    </datalist>
+            <br></br>
+                    <label for="next area?">What area pertaining to coding should I work on more/next?</label>
+                    <input type="text" id="next area?">
+            <br></br>
+                    <label for="advice?">Do you have any other coding advice for me?</label>
+                    <input type="text" id="advice?">
+            <br></br>
+                    <label for="hire me?">Would you be interested in hiring me? (pretty please)</label>
+                    <input type="checkbox" id="hire me?"  value="yes">
+            <br></br>
+                    <label for="sure?">Are you sure?</label>
+                    <input type="checkbox" id="sure?" value="yes">
+            <br></br>
+                    <input type="submit" value="Confirm choices">
+
+        </form>
+        
+        
+    </div>
